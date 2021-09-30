@@ -1,18 +1,18 @@
 var image = new Image();
 var i = 1;
-image.src = `https://dd19.codetantra.com/bigbluebutton/presentation/19ee9a94d37a2bf3dc5e8b6295e013ed014c9ec2-1631787976134/19ee9a94d37a2bf3dc5e8b6295e013ed014c9ec2-1631787976134/31d8e119078b9280e784de8b63f0e198c8b48dce-1631788091314/svg/${i}`;
+image.src = `https://dd293.codetantra.com/bigbluebutton/presentation/9ce1d776d33c61803d75c27956d577a7c4cacae7-1632997584263/9ce1d776d33c61803d75c27956d577a7c4cacae7-1632997584263/8fea497587608f6e3eb833e032e8ee37716d25c6-1632997699344/svg/${i}`;
 $("#video").html(image);
 
 document.onkeydown = function (event) {
   switch (event.keyCode) {
     case 37:
       i = i - 1;
-      image.src = `https://dd19.codetantra.com/bigbluebutton/presentation/19ee9a94d37a2bf3dc5e8b6295e013ed014c9ec2-1631787976134/19ee9a94d37a2bf3dc5e8b6295e013ed014c9ec2-1631787976134/31d8e119078b9280e784de8b63f0e198c8b48dce-1631788091314/svg/${i}`;
+      image.src = `https://dd293.codetantra.com/bigbluebutton/presentation/9ce1d776d33c61803d75c27956d577a7c4cacae7-1632997584263/9ce1d776d33c61803d75c27956d577a7c4cacae7-1632997584263/8fea497587608f6e3eb833e032e8ee37716d25c6-1632997699344/svg/${i}`;
       $("#video").html(image);
       break;
     case 39:
       i = i + 1;
-      image.src = `https://dd19.codetantra.com/bigbluebutton/presentation/19ee9a94d37a2bf3dc5e8b6295e013ed014c9ec2-1631787976134/19ee9a94d37a2bf3dc5e8b6295e013ed014c9ec2-1631787976134/31d8e119078b9280e784de8b63f0e198c8b48dce-1631788091314/svg/${i}`;
+      image.src = `https://dd293.codetantra.com/bigbluebutton/presentation/9ce1d776d33c61803d75c27956d577a7c4cacae7-1632997584263/9ce1d776d33c61803d75c27956d577a7c4cacae7-1632997584263/8fea497587608f6e3eb833e032e8ee37716d25c6-1632997699344/svg/${i}`;
       $("#video").html(image);
       break;
   }
@@ -20,7 +20,7 @@ document.onkeydown = function (event) {
 
 function othername() {
   i = document.getElementById("userInput").value;
-  image.src = `https://dd19.codetantra.com/bigbluebutton/presentation/19ee9a94d37a2bf3dc5e8b6295e013ed014c9ec2-1631787976134/19ee9a94d37a2bf3dc5e8b6295e013ed014c9ec2-1631787976134/31d8e119078b9280e784de8b63f0e198c8b48dce-1631788091314/svg/${i}`;
+  image.src = `https://dd293.codetantra.com/bigbluebutton/presentation/9ce1d776d33c61803d75c27956d577a7c4cacae7-1632997584263/9ce1d776d33c61803d75c27956d577a7c4cacae7-1632997584263/8fea497587608f6e3eb833e032e8ee37716d25c6-1632997699344/svg/${i}`;
 
   $("#video").html(image);
 }
